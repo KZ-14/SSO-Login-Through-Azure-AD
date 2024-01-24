@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+db.sqlite3
+
+# Static Files
+staticfiles
+
+# Environment variables file
+.env
+
+# Add any other files or directories you want to ignore

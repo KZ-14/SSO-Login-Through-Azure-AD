@@ -1,0 +1,111 @@
+/* Common styles for the sign-in button */
+.sign-in-button {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mediumblue);
+    height: 47px;
+    width: 40%; /* Use 40% width by default */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Styles for the sign-in text inside the button */
+  .sign-in1 {
+    text-align: center;
+  }
+  
+  /* Styles for the main sign-in container */
+  .sign-in-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements in a column */
+    align-items: center; /* Center horizontally within the container */
+    justify-content: center; /* Center vertically within the container */
+    height: 100vh; /* Center content vertically on the screen */
+  }
+  
+  /* Styles for the sportsco text */
+  .sportsco {
+    font-weight: 600;
+  }
+  
+  /* Styles for the "track your health" container */
+  .track-your-health-container {
+    font-size: var(--font-size-xl);
+    color: var(--color-darkslategray);
+    text-align: center;
+  }
+  
+  /* Styles for the "welcome back" text */
+  .welcome-back {
+    font-size: 30px;
+    color: var(--color-gray);
+  }
+  
+  /* Styles for the sportsco icon */
+  .sportsco-icon {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for the login page */
+  .login-page-alt-1 {
+    background: linear-gradient(63.58deg, #69b7ff, #fff);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-mediumblue);
+    font-family: var(--font-inter);
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 767px) {
+    /* Apply these styles when the screen width is less than 768px (mobile) */
+    .sign-in {
+      width: 80%; /* Use 80% width on mobile */
+      margin-top: 90px;
+    }
+    
+    .welcome-back {
+      margin-top: 30px; /* Adjust margin as needed */
+    }
+  
+    .track-your-health-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .login-page-alt-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  /* Media queries for responsive design */
+  @media (min-width: 768px) {
+    /* Apply these styles when the screen width is 768px or more */
+    .sign-in {
+      width: 100%; 
+      margin-top: 90px; 
+    }
+    
+    .track-your-health-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .welcome-back {
+      text-align: center;
+      margin-top: 49px;
+    }
+    
+    /* Remove absolute positioning for the main container */
+    .login-page-alt-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
